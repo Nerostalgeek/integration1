@@ -21,6 +21,24 @@ section {
     color: black;
 }
 
+.introButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.introButton:hover {background-color: #403735;}
+
 /* --------------------HEADER --------------------------------  */
 
 header {
@@ -56,6 +74,10 @@ a:link {
     text-decoration: none;
 }
 
+a:hover{
+    color: green;
+}
+
 a:visited {
     color: green;
 }
@@ -78,12 +100,18 @@ a:visited {
 #intro p {
     text-align: center;
     color: white;
+    width: 50%;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
 }
 
 #bigLorem {
+    padding: 20px 20px 20px 20px;
     text-align: center;
     font-size: 40px;
-    border: 1px solid black;
+    border: 1px solid white;
+    margin: auto;
+    width: 50%;
 }
 
 /* --------------------------------BIO------------------------*/
@@ -92,7 +120,6 @@ a:visited {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 #loremBio {
@@ -111,15 +138,36 @@ a:visited {
 .subTd {
     text-align: left;
 }
-
-th, td {
+ .col-head{
+     background-color: #69D1E7;
+     text-transform: uppercase;
+     text-align: center;
+    padding: 10px;
+ }
+ td {
     padding: 8px;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid black;
     text-align: center;
 }
 
-#subTr {
+.col {
     background-color: #2C2F37;
     border-collapse: collapse;
     color: white;
+    text-align: left;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*----------------------------------WORK----------------------------------*/
+
+#work {
+    background-color: #EFF0F0;
+}
+
+/*----------------------------------CONTACT ----------------------------------*/
+
+#contact {
+    background-color: #2C2F37;
 }
