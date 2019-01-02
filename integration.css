@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+}
+
+/* ------------------- CLASS --------------------------------- */
+
+section {
+    position: relative;
+    margin: 0;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    top: -15px;
+    left: 45%;
+    padding: 15px 40px;
+    font-size: 2rem;
+    position: absolute;
+}
+
+/* --------------------HEADER --------------------------------  */
+
+header {
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1541140134513-85a161dc4a00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
+}
+
+nav {
+    height: 50px;
+    width: 400px;
+    background-color: #060604;
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+li {
+    display: inline;
+    list-style: none;
+    /* pour enlever les puces sur IE7 */
+    margin: 10px;
+}
+
+a:link {
+    color: #798191;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+#me {
+    text-align: center;
+    color: white;
+}
+
+#me span {
+    color: #798191;
+}
+
+/* --------------------------------INTRO------------------------*/
+
+#intro {
+    background-color: #69D1E7;
+}
+
+#intro p {
+    text-align: center;
+    color: white;
+}
+
+#bigLorem {
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+/* --------------------------------BIO------------------------*/
+
+#imgBio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 40vh;
+}
+
+#loremBio {
+    color: black;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgBio table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.subTd {
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+#subTr {
+    background-color: #2C2F37;
+    border-collapse: collapse;
+    color: white;
+}
