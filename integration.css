@@ -21,23 +21,9 @@ section {
     color: black;
 }
 
-.introButton {
-    background-color: white;
-    color: black;
-    border: 2px solid #e7e7e7;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
 
-.introButton:hover {background-color: #403735;}
+
+
 
 /* --------------------HEADER --------------------------------  */
 
@@ -74,7 +60,7 @@ a:link {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: green;
 }
 
@@ -93,16 +79,16 @@ a:visited {
 
 /* --------------------------------INTRO------------------------*/
 
-#intro {
-    background-color: #69D1E7;
-}
 
-#intro p {
+
+#intro  {
+    background-color: #69D1E7;
+
+    font-size: 20px;
     text-align: center;
     color: white;
-    width: 50%;
     margin: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 50px 10px 50px 50px;
 }
 
 #bigLorem {
@@ -114,6 +100,36 @@ a:visited {
     width: 50%;
 }
 
+#postLorem{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+#buttonIntro {
+    margin: auto;
+    width: 50%;
+    padding: 50px 10px 60px 50px;
+}
+
+.introButton {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.introButton:hover {
+    background-color: #403735;
+}
 /* --------------------------------BIO------------------------*/
 
 #imgBio img {
@@ -138,13 +154,15 @@ a:visited {
 .subTd {
     text-align: left;
 }
- .col-head{
-     background-color: #69D1E7;
-     text-transform: uppercase;
-     text-align: center;
+
+.col-head {
+    background-color: #69D1E7;
+    text-transform: uppercase;
+    text-align: center;
     padding: 10px;
- }
- td {
+}
+
+td {
     padding: 8px;
     border: 1px solid black;
     text-align: center;
@@ -165,6 +183,8 @@ a:visited {
 #work {
     background-color: #EFF0F0;
 }
+
+#section1 {}
 
 /*----------------------------------CONTACT ----------------------------------*/
 
